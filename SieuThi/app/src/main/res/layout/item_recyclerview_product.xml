@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="170dp"
+    android:layout_height="wrap_content"
+    android:paddingLeft="10dp"
+    android:paddingTop="5dp"
+    android:background="@color/white"
+    android:layout_marginTop="2dp"
+    android:layout_marginLeft="2dp">
+
+    <ImageView
+        android:layout_width="170dp"
+        android:layout_height="170dp"
+        android:src="@drawable/product1"
+        android:id="@+id/imageViewProduct"
+        android:scaleType="fitCenter"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="90,000đ"
+        android:textColor="@color/red"
+        android:layout_below="@+id/imageViewProduct"
+        android:id="@+id/textViewProductPrice"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Thùng 30 gói mì tôm Hảo Hảo chua cay"
+        android:layout_below="@+id/textViewProductPrice"
+        android:id="@+id/textViewProductName"/>
+
+</RelativeLayout>
